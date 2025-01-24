@@ -1,0 +1,18 @@
+Start game (commit 7371019e)
+Hook crt
+CrtMain
+Disable DEP
+Game: other
+Branch: Main
+Fix default resolution
+Disable DWM
+Can't found DwmEnableComposition
+Hook launch errors
+Hook game exit
+Hook game load logging
+Fix refresh rate
+Fix startup errors
+Hook fonts
+Find documets dir
+Load SAMP R1 ( 0x3c40000 )
+Disable builtin SAMP anti-cheat

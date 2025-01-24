@@ -1,0 +1,47 @@
+22/01/2025 21:39:21.357 Log started.
+22/01/2025 21:39:21.357 Unprotecting memory region '.text': 0x00001000 (size: 0x00456000)
+22/01/2025 21:39:21.357 Unprotecting memory region '.rdata': 0x00458000 (size: 0x0004C000)
+22/01/2025 21:39:21.357 Unprotecting memory region '.text': 0x008B1000 (size: 0x0064A000)
+22/01/2025 21:39:21.358 Unloading plugins...
+22/01/2025 21:39:21.358 Loading plugin cleo/FileSystemOperations.cleo
+22/01/2025 21:39:21.358 Loading plugin cleo/IniFiles.cleo
+22/01/2025 21:39:21.359 Loading plugin cleo/IntOperations.cleo
+22/01/2025 21:39:21.360 Started on game of version: SA 1.0 us
+22/01/2025 21:39:21.360 Injecting MenuStatusNotifier...
+22/01/2025 21:39:21.360 Replacing call: 0x0057B9FD
+22/01/2025 21:39:21.360 Injecting DmaFix...
+22/01/2025 21:39:21.360 Replacing call: 0x0053E981
+22/01/2025 21:39:21.360 Injecting TextManager...
+22/01/2025 21:39:21.360 Injecting function at: 0x006A0050
+22/01/2025 21:39:21.360 Injecting SoundSystem...
+22/01/2025 21:39:21.360 Replacing call: 0x007487A8
+22/01/2025 21:39:21.360 Injecting CustomOpcodeSystem...
+22/01/2025 21:39:21.360 Injecting ScriptEngine...
+22/01/2025 21:39:21.360 Replacing call: 0x0046A21B
+22/01/2025 21:39:21.360 Replacing call: 0x0058D552
+22/01/2025 21:39:21.360 Replacing call: 0x0058FCE4
+22/01/2025 21:39:21.360 Replacing call: 0x0053BDD7
+22/01/2025 21:39:21.360 Replacing call: 0x005BA340
+22/01/2025 21:39:21.360 Replacing call: 0x005D4FD7
+22/01/2025 21:39:21.360 Replacing call: 0x005D18F0
+22/01/2025 21:39:21.360 Replacing call: 0x005D14D5
+22/01/2025 21:39:21.360 Injecting function at: 0x004667DB
+22/01/2025 21:39:21.694 Creating main window...
+22/01/2025 21:39:21.698 Found sound device 0: No sound
+22/01/2025 21:39:21.698 Found sound device 1: AG275QXN (NVIDIA High Definition Audio)
+22/01/2025 21:39:21.698 Found sound device 2: ASUS 22T1E (NVIDIA High Definition Audio)
+22/01/2025 21:39:21.698 Found sound device 3 (default): Speakers (USB Audio Device)
+22/01/2025 21:39:21.698 On system found 4 devices, 4 enabled devices, assuming device to use: 3 (Speakers (USB Audio Device))
+22/01/2025 21:39:21.704 SoundSystem initialized
+22/01/2025 21:39:21.704 Floating-point audio supported!
+22/01/2025 21:39:21.704 Audio hardware acceleration disabled (no EAX)
+22/01/2025 21:39:42.377 Scripts exclusively initialized
+22/01/2025 21:39:42.378 Deleting dynamic fxts...
+22/01/2025 21:39:42.378 Cleaning up script data... 0 files, 0 libs, 0 file scans, 0 allocations...
+22/01/2025 21:39:42.379 Searching for cleo scripts
+22/01/2025 21:40:19.141 Closing SoundSystem...
+22/01/2025 21:40:19.141 Freeing BASS library
+22/01/2025 21:40:19.141 SoundSystem closed!
+22/01/2025 21:40:19.141 Deleting fxts...
+22/01/2025 21:40:19.141 Unloading scripts...
+22/01/2025 21:40:19.141 Log finished.

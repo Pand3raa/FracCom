@@ -1,0 +1,36 @@
+[1222/210232.775:ERROR:os_crypt_win.cc(93)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[1223/194351.325:ERROR:os_crypt_win.cc(93)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[1223/223419.950:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[1224/003008.194:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[1224/183848.015:ERROR:os_crypt_win.cc(93)] Failed to decrypt: Ключ не может быть использован в указанном состоянии. (0x8009000B)
+[1225/012335.149:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[1225/044406.261:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[0104/020919.425:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[0109/225500.572:ERROR:os_crypt_win.cc(93)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[0114/013252.258:ERROR:os_crypt_win.cc(93)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[0114/150857.035:ERROR:os_crypt_win.cc(93)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[0115/125509.806:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[0130/165347.642:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0130/165347.642:ERROR:entry_impl.cc(1075)] No file for a1010014
+[0130/235523.614:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[0202/145107.816:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0202/145107.844:ERROR:entry_impl.cc(1075)] No file for c1030000
+[0207/180224.748:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[0207/180225.039:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[0217/225539.449:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0217/225539.482:ERROR:entry_impl.cc(1075)] No file for c103003e
+[0218/205931.856:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0218/205931.875:ERROR:entry_impl.cc(1075)] No file for c103002a
+[0218/205945.661:ERROR:ssl_client_socket_impl.cc(924)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0219/160945.478:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0219/160945.513:ERROR:entry_impl.cc(1075)] No file for c1030018
+[0221/001112.035:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[0221/001112.246:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[0221/002914.942:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[0701/043254.192:ERROR:os_crypt_win.cc(93)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
+[0802/063338.605:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[0802/075951.012:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[0827/085247.660:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[0828/082412.479:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[0913/111500.659:ERROR:network_service_instance_impl.cc(286)] Network service crashed, restarting service.
+[0717/155652.058:ERROR:os_crypt_win.cc(93)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)

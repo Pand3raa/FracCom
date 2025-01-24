@@ -1,0 +1,1314 @@
+========================== Mod Loader 0.3.7 ==========================
+
+Game version: GTA SA 1.0 US
+Loading basic config file modloader/.data/config.ini
+
+Parsing command line
+Loaded fallback menu fxt
+
+Looking for plugins...
+Reading plugins.ini
+Loading plugin module "gta3\std.asi.dll"
+Plugin module "gta3\std.asi.dll" loaded as gta3.std.asi Jan 16 2018 17:44:17 by LINK/2012
+Starting up plugin "gta3.std.asi"
+CLEO library version 4040000 found at "cleo.asi"
+Loading plugin module "gta3\std.bank.dll"
+Plugin module "gta3\std.bank.dll" loaded as gta3.std.bank Nov 12 2016 18:52:34 by LINK/2012
+Starting up plugin "gta3.std.bank"
+Loading plugin module "gta3\std.data.dll"
+Plugin module "gta3\std.data.dll" loaded as gta3.std.data Nov 12 2016 18:52:35 by LINK/2012
+Starting up plugin "gta3.std.data"
+Loading plugin module "gta3\std.fx.dll"
+Plugin module "gta3\std.fx.dll" loaded as gta3.std.fx Nov 12 2016 18:52:38 by LINK/2012
+Starting up plugin "gta3.std.fx"
+Loading plugin module "gta3\std.movies.dll"
+Plugin module "gta3\std.movies.dll" loaded as gta3.std.movies Nov 12 2016 18:52:50 by LINK/2012
+Starting up plugin "gta3.std.movies"
+Loading plugin module "gta3\std.scm.dll"
+Plugin module "gta3\std.scm.dll" loaded as gta3.std.scm Nov 12 2016 18:53:09 by LINK/2012
+Starting up plugin "gta3.std.scm"
+Loading plugin module "gta3\std.sprites.dll"
+Plugin module "gta3\std.sprites.dll" loaded as gta3.std.sprites Nov 12 2016 18:53:10 by LINK/2012
+Starting up plugin "gta3.std.sprites"
+Loading plugin module "gta3\std.stream.dll"
+Plugin module "gta3\std.stream.dll" loaded as gta3.std.stream Jan 16 2018 17:44:17 by LINK/2012
+Starting up plugin "gta3.std.stream"
+Loading plugin module "gta3\std.text.dll"
+Plugin module "gta3\std.text.dll" loaded as gta3.std.text Nov 12 2016 18:52:34 by LINK/2012
+Starting up plugin "gta3.std.text"
+Loading plugin module "gta3\std.tracks.dll"
+Plugin module "gta3\std.tracks.dll" loaded as gta3.std.tracks Nov 12 2016 18:52:33 by LINK/2012
+Starting up plugin "gta3.std.tracks"
+Reading profile named "Default" at "modloader.ini".
+Using profile named "Default".
+Using profile named "Default"
+
+
+Scanning mods at "modloader\"...
+
+Scanning files at "modloader\soundscars\"...
+No handler or callme for file "Bank_001\sound_001.sfk"
+Found file [0x000800086E87C067] "Bank_001\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001000086E87C067] "Bank_001\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000800106E87C067] "Bank_002\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001000106E87C067] "Bank_002\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001800106E87C067] "Bank_002\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000800506E87C067] "Bank_010\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001000506E87C067] "Bank_010\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000800586E87C067] "Bank_011\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001000586E87C067] "Bank_011\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001800586E87C067] "Bank_011\sound_003.wav" with handler "gta3.std.bank"
+No handler or callme for file "Bank_019\sound_001.sfk"
+Found file [0x000800986E87C067] "Bank_019\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001000986E87C067] "Bank_019\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000800A06E87C067] "Bank_020\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001000A06E87C067] "Bank_020\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001800A06E87C067] "Bank_020\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000800E06E87C067] "Bank_028\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001000E06E87C067] "Bank_028\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000800E86E87C067] "Bank_029\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001000E86E87C067] "Bank_029\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001800E86E87C067] "Bank_029\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000800F86E87C067] "Bank_031\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001000F86E87C067] "Bank_031\sound_002.wav" with handler "gta3.std.bank"
+No handler or callme for file "Bank_032\hardlastgearsound_002.wav"
+Found file [0x000801006E87C067] "Bank_032\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001001006E87C067] "Bank_032\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001801006E87C067] "Bank_032\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000801206E87C067] "Bank_036\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001001206E87C067] "Bank_036\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000801286E87C067] "Bank_037\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001001286E87C067] "Bank_037\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001801286E87C067] "Bank_037\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000801386E87C067] "Bank_039\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001001386E87C067] "Bank_039\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000801406E87C067] "Bank_040\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001001406E87C067] "Bank_040\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001801406E87C067] "Bank_040\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000801486E87C067] "Bank_041\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001001486E87C067] "Bank_041\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000801506E87C067] "Bank_042\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001001506E87C067] "Bank_042\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001801506E87C067] "Bank_042\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000801586E87C067] "Bank_043\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001001586E87C067] "Bank_043\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000801606E87C067] "Bank_044\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001001606E87C067] "Bank_044\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001801606E87C067] "Bank_044\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x00C801A86E87C067] "Bank_053\sound_025.wav" with handler "gta3.std.bank"
+Found file [0x000802006E87C067] "Bank_064\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001002006E87C067] "Bank_064\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000802086E87C067] "Bank_065\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001002086E87C067] "Bank_065\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001802086E87C067] "Bank_065\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000802106E87C067] "Bank_066\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001002106E87C067] "Bank_066\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000802186E87C067] "Bank_067\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001002186E87C067] "Bank_067\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001802186E87C067] "Bank_067\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x005802206E87C067] "Bank_068\sound_011.wav" with handler "gta3.std.bank"
+Found file [0x006002206E87C067] "Bank_068\sound_012.wav" with handler "gta3.std.bank"
+Found file [0x000802286E87C067] "Bank_069\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001002286E87C067] "Bank_069\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000802306E87C067] "Bank_070\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001002306E87C067] "Bank_070\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001802306E87C067] "Bank_070\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000802906E87C067] "Bank_082\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001002906E87C067] "Bank_082\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000802986E87C067] "Bank_083\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001002986E87C067] "Bank_083\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001802986E87C067] "Bank_083\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000802B06E87C067] "Bank_086\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001002B06E87C067] "Bank_086\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000802B86E87C067] "Bank_087\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001002B86E87C067] "Bank_087\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001802B86E87C067] "Bank_087\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000802C06E87C067] "Bank_088\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001002C06E87C067] "Bank_088\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000802C86E87C067] "Bank_089\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001002C86E87C067] "Bank_089\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001802C86E87C067] "Bank_089\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000802F06E87C067] "Bank_094\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001002F06E87C067] "Bank_094\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000802F86E87C067] "Bank_095\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001002F86E87C067] "Bank_095\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001802F86E87C067] "Bank_095\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000803006E87C067] "Bank_096\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001003006E87C067] "Bank_096\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000803086E87C067] "Bank_097\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001003086E87C067] "Bank_097\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001803086E87C067] "Bank_097\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000803186E87C067] "Bank_099\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001003186E87C067] "Bank_099\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001803186E87C067] "Bank_099\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x002003186E87C067] "Bank_099\sound_004.wav" with handler "gta3.std.bank"
+Found file [0x002803186E87C067] "Bank_099\sound_005.wav" with handler "gta3.std.bank"
+Found file [0x003003186E87C067] "Bank_099\sound_006.wav" with handler "gta3.std.bank"
+Found file [0x003803186E87C067] "Bank_099\sound_007.wav" with handler "gta3.std.bank"
+Found file [0x004003186E87C067] "Bank_099\sound_008.wav" with handler "gta3.std.bank"
+Found file [0x004803186E87C067] "Bank_099\sound_009.wav" with handler "gta3.std.bank"
+Found file [0x005003186E87C067] "Bank_099\sound_010.wav" with handler "gta3.std.bank"
+Found file [0x005803186E87C067] "Bank_099\sound_011.wav" with handler "gta3.std.bank"
+Found file [0x006003186E87C067] "Bank_099\sound_012.wav" with handler "gta3.std.bank"
+Found file [0x006803186E87C067] "Bank_099\sound_013.wav" with handler "gta3.std.bank"
+Found file [0x007003186E87C067] "Bank_099\sound_014.wav" with handler "gta3.std.bank"
+Found file [0x007803186E87C067] "Bank_099\sound_015.wav" with handler "gta3.std.bank"
+Found file [0x008003186E87C067] "Bank_099\sound_016.wav" with handler "gta3.std.bank"
+Found file [0x000803606E87C067] "Bank_108\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001003606E87C067] "Bank_108\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000803686E87C067] "Bank_109\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001003686E87C067] "Bank_109\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001803686E87C067] "Bank_109\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000803706E87C067] "Bank_110\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001003706E87C067] "Bank_110\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000803786E87C067] "Bank_111\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001003786E87C067] "Bank_111\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001803786E87C067] "Bank_111\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x000803B06E87C067] "Bank_118\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001003B06E87C067] "Bank_118\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000803B86E87C067] "Bank_119\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001003B86E87C067] "Bank_119\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001803B86E87C067] "Bank_119\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x004804206E87C067] "Bank_132\sound_009.wav" with handler "gta3.std.bank"
+Found file [0x005004206E87C067] "Bank_132\sound_010.wav" with handler "gta3.std.bank"
+Found file [0x00A004206E87C067] "Bank_132\sound_020.wav" with handler "gta3.std.bank"
+Found file [0x00A804206E87C067] "Bank_132\sound_021.wav" with handler "gta3.std.bank"
+Found file [0x00C804206E87C067] "Bank_132\sound_025.wav" with handler "gta3.std.bank"
+Found file [0x00D004206E87C067] "Bank_132\sound_026.wav" with handler "gta3.std.bank"
+Found file [0x013004206E87C067] "Bank_132\sound_038.wav" with handler "gta3.std.bank"
+Found file [0x000804386E87C067] "Bank_135\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001004386E87C067] "Bank_135\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000804406E87C067] "Bank_136\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001004406E87C067] "Bank_136\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001804406E87C067] "Bank_136\sound_003.wav" with handler "gta3.std.bank"
+Found file [0x005804486E87C067] "Bank_137\sound_011.wav" with handler "gta3.std.bank"
+Found file [0x02A004486E87C067] "Bank_137\sound_084.wav" with handler "gta3.std.bank"
+No handler or callme for file "Bank_200\sound_001.sfk"
+Found file [0x000806406E87C067] "Bank_200\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001006406E87C067] "Bank_200\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x000806486E87C067] "Bank_201\sound_001.wav" with handler "gta3.std.bank"
+Found file [0x001006486E87C067] "Bank_201\sound_002.wav" with handler "gta3.std.bank"
+Found file [0x001806486E87C067] "Bank_201\sound_003.wav" with handler "gta3.std.bank"
+
+Updating mods for "modloader\"...
+Updating state for "modloader\soundscars\"...
+Installing file "modloader\soundscars\bank_001\sound_001.wav"
+Installing file "modloader\soundscars\bank_001\sound_002.wav"
+Installing file "modloader\soundscars\bank_002\sound_001.wav"
+Installing file "modloader\soundscars\bank_002\sound_002.wav"
+Installing file "modloader\soundscars\bank_002\sound_003.wav"
+Installing file "modloader\soundscars\bank_010\sound_001.wav"
+Installing file "modloader\soundscars\bank_010\sound_002.wav"
+Installing file "modloader\soundscars\bank_011\sound_001.wav"
+Installing file "modloader\soundscars\bank_011\sound_002.wav"
+Installing file "modloader\soundscars\bank_011\sound_003.wav"
+Installing file "modloader\soundscars\bank_019\sound_001.wav"
+Installing file "modloader\soundscars\bank_019\sound_002.wav"
+Installing file "modloader\soundscars\bank_020\sound_001.wav"
+Installing file "modloader\soundscars\bank_020\sound_002.wav"
+Installing file "modloader\soundscars\bank_020\sound_003.wav"
+Installing file "modloader\soundscars\bank_028\sound_001.wav"
+Installing file "modloader\soundscars\bank_028\sound_002.wav"
+Installing file "modloader\soundscars\bank_029\sound_001.wav"
+Installing file "modloader\soundscars\bank_029\sound_002.wav"
+Installing file "modloader\soundscars\bank_029\sound_003.wav"
+Installing file "modloader\soundscars\bank_031\sound_001.wav"
+Installing file "modloader\soundscars\bank_031\sound_002.wav"
+Installing file "modloader\soundscars\bank_032\sound_001.wav"
+Installing file "modloader\soundscars\bank_032\sound_002.wav"
+Installing file "modloader\soundscars\bank_032\sound_003.wav"
+Installing file "modloader\soundscars\bank_036\sound_001.wav"
+Installing file "modloader\soundscars\bank_036\sound_002.wav"
+Installing file "modloader\soundscars\bank_037\sound_001.wav"
+Installing file "modloader\soundscars\bank_037\sound_002.wav"
+Installing file "modloader\soundscars\bank_037\sound_003.wav"
+Installing file "modloader\soundscars\bank_039\sound_001.wav"
+Installing file "modloader\soundscars\bank_039\sound_002.wav"
+Installing file "modloader\soundscars\bank_040\sound_001.wav"
+Installing file "modloader\soundscars\bank_040\sound_002.wav"
+Installing file "modloader\soundscars\bank_040\sound_003.wav"
+Installing file "modloader\soundscars\bank_041\sound_001.wav"
+Installing file "modloader\soundscars\bank_041\sound_002.wav"
+Installing file "modloader\soundscars\bank_042\sound_001.wav"
+Installing file "modloader\soundscars\bank_042\sound_002.wav"
+Installing file "modloader\soundscars\bank_042\sound_003.wav"
+Installing file "modloader\soundscars\bank_043\sound_001.wav"
+Installing file "modloader\soundscars\bank_043\sound_002.wav"
+Installing file "modloader\soundscars\bank_044\sound_001.wav"
+Installing file "modloader\soundscars\bank_044\sound_002.wav"
+Installing file "modloader\soundscars\bank_044\sound_003.wav"
+Installing file "modloader\soundscars\bank_053\sound_025.wav"
+Installing file "modloader\soundscars\bank_064\sound_001.wav"
+Installing file "modloader\soundscars\bank_064\sound_002.wav"
+Installing file "modloader\soundscars\bank_065\sound_001.wav"
+Installing file "modloader\soundscars\bank_065\sound_002.wav"
+Installing file "modloader\soundscars\bank_065\sound_003.wav"
+Installing file "modloader\soundscars\bank_066\sound_001.wav"
+Installing file "modloader\soundscars\bank_066\sound_002.wav"
+Installing file "modloader\soundscars\bank_067\sound_001.wav"
+Installing file "modloader\soundscars\bank_067\sound_002.wav"
+Installing file "modloader\soundscars\bank_067\sound_003.wav"
+Installing file "modloader\soundscars\bank_068\sound_011.wav"
+Installing file "modloader\soundscars\bank_068\sound_012.wav"
+Installing file "modloader\soundscars\bank_069\sound_001.wav"
+Installing file "modloader\soundscars\bank_069\sound_002.wav"
+Installing file "modloader\soundscars\bank_070\sound_001.wav"
+Installing file "modloader\soundscars\bank_070\sound_002.wav"
+Installing file "modloader\soundscars\bank_070\sound_003.wav"
+Installing file "modloader\soundscars\bank_082\sound_001.wav"
+Installing file "modloader\soundscars\bank_082\sound_002.wav"
+Installing file "modloader\soundscars\bank_083\sound_001.wav"
+Installing file "modloader\soundscars\bank_083\sound_002.wav"
+Installing file "modloader\soundscars\bank_083\sound_003.wav"
+Installing file "modloader\soundscars\bank_086\sound_001.wav"
+Installing file "modloader\soundscars\bank_086\sound_002.wav"
+Installing file "modloader\soundscars\bank_087\sound_001.wav"
+Installing file "modloader\soundscars\bank_087\sound_002.wav"
+Installing file "modloader\soundscars\bank_087\sound_003.wav"
+Installing file "modloader\soundscars\bank_088\sound_001.wav"
+Installing file "modloader\soundscars\bank_088\sound_002.wav"
+Installing file "modloader\soundscars\bank_089\sound_001.wav"
+Installing file "modloader\soundscars\bank_089\sound_002.wav"
+Installing file "modloader\soundscars\bank_089\sound_003.wav"
+Installing file "modloader\soundscars\bank_094\sound_001.wav"
+Installing file "modloader\soundscars\bank_094\sound_002.wav"
+Installing file "modloader\soundscars\bank_095\sound_001.wav"
+Installing file "modloader\soundscars\bank_095\sound_002.wav"
+Installing file "modloader\soundscars\bank_095\sound_003.wav"
+Installing file "modloader\soundscars\bank_096\sound_001.wav"
+Installing file "modloader\soundscars\bank_096\sound_002.wav"
+Installing file "modloader\soundscars\bank_097\sound_001.wav"
+Installing file "modloader\soundscars\bank_097\sound_002.wav"
+Installing file "modloader\soundscars\bank_097\sound_003.wav"
+Installing file "modloader\soundscars\bank_099\sound_001.wav"
+Installing file "modloader\soundscars\bank_099\sound_002.wav"
+Installing file "modloader\soundscars\bank_099\sound_003.wav"
+Installing file "modloader\soundscars\bank_099\sound_004.wav"
+Installing file "modloader\soundscars\bank_099\sound_005.wav"
+Installing file "modloader\soundscars\bank_099\sound_006.wav"
+Installing file "modloader\soundscars\bank_099\sound_007.wav"
+Installing file "modloader\soundscars\bank_099\sound_008.wav"
+Installing file "modloader\soundscars\bank_099\sound_009.wav"
+Installing file "modloader\soundscars\bank_099\sound_010.wav"
+Installing file "modloader\soundscars\bank_099\sound_011.wav"
+Installing file "modloader\soundscars\bank_099\sound_012.wav"
+Installing file "modloader\soundscars\bank_099\sound_013.wav"
+Installing file "modloader\soundscars\bank_099\sound_014.wav"
+Installing file "modloader\soundscars\bank_099\sound_015.wav"
+Installing file "modloader\soundscars\bank_099\sound_016.wav"
+Installing file "modloader\soundscars\bank_108\sound_001.wav"
+Installing file "modloader\soundscars\bank_108\sound_002.wav"
+Installing file "modloader\soundscars\bank_109\sound_001.wav"
+Installing file "modloader\soundscars\bank_109\sound_002.wav"
+Installing file "modloader\soundscars\bank_109\sound_003.wav"
+Installing file "modloader\soundscars\bank_110\sound_001.wav"
+Installing file "modloader\soundscars\bank_110\sound_002.wav"
+Installing file "modloader\soundscars\bank_111\sound_001.wav"
+Installing file "modloader\soundscars\bank_111\sound_002.wav"
+Installing file "modloader\soundscars\bank_111\sound_003.wav"
+Installing file "modloader\soundscars\bank_118\sound_001.wav"
+Installing file "modloader\soundscars\bank_118\sound_002.wav"
+Installing file "modloader\soundscars\bank_119\sound_001.wav"
+Installing file "modloader\soundscars\bank_119\sound_002.wav"
+Installing file "modloader\soundscars\bank_119\sound_003.wav"
+Installing file "modloader\soundscars\bank_132\sound_009.wav"
+Installing file "modloader\soundscars\bank_132\sound_010.wav"
+Installing file "modloader\soundscars\bank_132\sound_020.wav"
+Installing file "modloader\soundscars\bank_132\sound_021.wav"
+Installing file "modloader\soundscars\bank_132\sound_025.wav"
+Installing file "modloader\soundscars\bank_132\sound_026.wav"
+Installing file "modloader\soundscars\bank_132\sound_038.wav"
+Installing file "modloader\soundscars\bank_135\sound_001.wav"
+Installing file "modloader\soundscars\bank_135\sound_002.wav"
+Installing file "modloader\soundscars\bank_136\sound_001.wav"
+Installing file "modloader\soundscars\bank_136\sound_002.wav"
+Installing file "modloader\soundscars\bank_136\sound_003.wav"
+Installing file "modloader\soundscars\bank_137\sound_011.wav"
+Installing file "modloader\soundscars\bank_137\sound_084.wav"
+Installing file "modloader\soundscars\bank_200\sound_001.wav"
+Installing file "modloader\soundscars\bank_200\sound_002.wav"
+Installing file "modloader\soundscars\bank_201\sound_001.wav"
+Installing file "modloader\soundscars\bank_201\sound_002.wav"
+Installing file "modloader\soundscars\bank_201\sound_003.wav"
+Updating gta3.std.data state...
+Done updating gta3.std.data state.
+Starting up filesystem watcher...
+
+Mod Loader has started up!
+
+Opening file for streaming "MODELS\GTA3.IMG"
+Loading default font values "DATA\FONTS.DAT"
+Loading default vehicles handling "HANDLING.CFG"
+Loading default surface adhesion limits "data\surface.dat"
+Loading default surface infos "data\surfinfo.dat"
+Loading default surface audio infos "data\surfaud.dat"
+Loading default ped stats "DATA\PEDSTATS.DAT"
+Loading default decision maker "RANDOM.ped"
+Loading default decision maker "m_norm.ped"
+Loading default decision maker "m_plyr.ped"
+Loading default decision maker "RANDOM.grp"
+Loading default decision maker "MISSION.grp"
+Loading default decision maker "GangMbr.ped"
+Loading default decision maker "Cop.ped"
+Loading default decision maker "R_Norm.ped"
+Loading default decision maker "R_Tough.ped"
+Loading default decision maker "R_Weak.ped"
+Loading default decision maker "Fireman.ped"
+Loading default decision maker "m_empty.ped"
+Loading default decision maker "Indoors.ped"
+Loading default decision maker "RANDOM.grp"
+Loading default decision maker "RANDOM2.grp"
+Loading default time cycle properties "TIMECYC.DAT"
+Loading default population cycle properties "POPCYCLE.DAT"
+Loading default plants surface properties "PLANTS.DAT"
+Loading default anim association "DATA\ANIMGRP.DAT"
+Loading default stream config "stream.ini"
+Loading default fighting data "DATA\melee.dat"
+Preloading level file "DATA\DEFAULT.DAT"
+Loading default level file "DATA\DEFAULT.DAT"
+Preloading level file "DATA\GTA.DAT"
+Loading default level file "DATA\GTA.DAT"
+Loading preloaded level entries...
+Opening file for streaming "samp\custom.img"
+Opening file for streaming "edrp\edrp_vehicles.img"
+Opening file for streaming "edrp\edrp_tun.img"
+Opening file for streaming "edrp\edrp_skins.img"
+Opening file for streaming "edrp\edrp_map.img"
+Opening file for streaming "edrp\edrp_fix.img"
+Opening file for streaming "edrp\edrp_fur.img"
+Opening file for streaming "edrp\accessories.img"
+Opening file for streaming "models\gta_int.img"
+Opening file for streaming "samp\samp.img"
+Opening file for streaming "models\gta3.img"
+Opening file for streaming "models\gta3_part2.img"
+Opening file for streaming "data\script\script.img"
+Opening file for streaming "models\cutscene.img"
+Loading default object types "data\default.ide"
+Loading default object types "data\vehicles.ide"
+Loading default object types "data\peds.ide"
+Loading default object types "edrp\cars.ide"
+Loading default object types "edrp\skinsadmin.ide"
+Loading default object types "edrp\skinsshop.ide"
+Loading default object types "edrp\edrp.ide"
+Loading default object types "data\maps\generic\vegepart.ide"
+Loading default object types "data\maps\generic\barriers.ide"
+Loading default object types "data\maps\generic\dynamic.ide"
+Loading default object types "data\maps\generic\dynamic2.ide"
+Loading default object types "data\maps\generic\multiobj.ide"
+Loading default object types "data\maps\generic\procobj.ide"
+Loading default object types "data\maps\la\lan.ide"
+Loading default object types "data\maps\la\lan2.ide"
+Loading default object types "data\maps\la\las.ide"
+Loading default object types "data\maps\la\las2.ide"
+Loading default object types "data\maps\la\lae.ide"
+Loading default object types "data\maps\la\lae2.ide"
+Loading default object types "data\maps\la\law2.ide"
+Loading default object types "data\maps\la\law.ide"
+Loading default object types "data\maps\la\lawn.ide"
+Loading default object types "data\maps\la\lahills.ide"
+Loading default object types "data\maps\la\laxref.ide"
+Loading default object types "data\maps\sf\sfn.ide"
+Loading default object types "data\maps\sf\sfs.ide"
+Loading default object types "data\maps\sf\sfse.ide"
+Loading default object types "data\maps\sf\sfe.ide"
+Loading default object types "data\maps\sf\sfw.ide"
+Loading default object types "data\maps\sf\sfxref.ide"
+Loading default object types "data\maps\vegas\vegasn.ide"
+Loading default object types "data\maps\vegas\vegass.ide"
+Loading default object types "data\maps\vegas\vegase.ide"
+Loading default object types "data\maps\vegas\vegasw.ide"
+Loading default object types "data\maps\vegas\vegaxref.ide"
+Loading default object types "data\maps\country\countryn.ide"
+Loading default object types "data\maps\country\countn2.ide"
+Loading default object types "data\maps\country\countrys.ide"
+Loading default object types "data\maps\country\countrye.ide"
+Loading default object types "data\maps\country\countryw.ide"
+Loading default object types "data\maps\country\counxref.ide"
+Loading default object types "data\maps\interior\int_la.ide"
+Loading default object types "data\maps\interior\int_sf.ide"
+Loading default object types "data\maps\interior\int_veg.ide"
+Loading default object types "data\maps\interior\int_cont.ide"
+Loading default object types "data\maps\leveldes\levelmap.ide"
+Loading default object types "data\maps\leveldes\levelxre.ide"
+Loading default object types "data\maps\interior\gen_int1.ide"
+Loading default object types "data\maps\interior\gen_int2.ide"
+Loading default object types "data\maps\interior\gen_intb.ide"
+Loading default object types "data\maps\interior\gen_int3.ide"
+Loading default object types "data\maps\interior\gen_int4.ide"
+Loading default object types "data\maps\interior\gen_int5.ide"
+Loading default object types "data\maps\interior\savehous.ide"
+Loading default object types "data\maps\interior\stadint.ide"
+Loading default object types "data\maps\leveldes\seabed.ide"
+Loading default object types "data\maps\interior\props.ide"
+Loading default object types "data\maps\interior\props2.ide"
+Loading default object types "data\maps\interior\propext.ide"
+Loading default object types "data\maps\veh_mods\veh_mods.ide"
+Loading default object types "data\txdcut.ide"
+Loading default object types "samp\samp.ide"
+Loading default object types "samp\custom.ide"
+Loading default object data "DATA\OBJECT.DAT"
+Loading default vehicle colours "DATA\CARCOLS.DAT"
+Loading default vehicle upgrades "DATA\CARMODS.DAT"
+Initializing the streaming...
+Using fastman92limitadjuster (6FCA0000).
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Warning: Too many objects without modelinfo structures
+
+Loading abstract cd directory...
+Abstract cd directory has been loaded.
+Loading default scene "data\map.zon"
+Loading default scene "data\info.zon"
+Loading default scene "data\maps\la\lan.ipl"
+Loading default scene "data\maps\la\lan2.ipl"
+Loading default scene "data\maps\la\las.ipl"
+Loading default scene "data\maps\la\las2.ipl"
+Loading default scene "data\maps\la\lae.ipl"
+Loading default scene "data\maps\la\lae2.ipl"
+Loading default scene "data\maps\la\law.ipl"
+Loading default scene "data\maps\la\lawn.ipl"
+Loading default scene "data\maps\la\law2.ipl"
+Loading default scene "data\maps\la\lahills.ipl"
+Loading default scene "data\maps\sf\sfn.ipl"
+Loading default scene "data\maps\sf\sfs.ipl"
+Loading default scene "data\maps\sf\sfse.ipl"
+Loading default scene "data\maps\sf\sfe.ipl"
+Loading default scene "data\maps\sf\sfw.ipl"
+Loading default scene "data\maps\vegas\vegasn.ipl"
+Loading default scene "data\maps\vegas\vegass.ipl"
+Loading default scene "data\maps\vegas\vegase.ipl"
+Loading default scene "data\maps\vegas\vegasw.ipl"
+Loading default scene "data\maps\country\countryn.ipl"
+Loading default scene "data\maps\country\countn2.ipl"
+Loading default scene "data\maps\country\countrys.ipl"
+Loading default scene "data\maps\country\countrye.ipl"
+Loading default scene "data\maps\country\countryw.ipl"
+Loading default scene "data\maps\interior\int_la.ipl"
+Loading default scene "data\maps\interior\int_sf.ipl"
+Loading default scene "data\maps\interior\int_veg.ipl"
+Loading default scene "data\maps\interior\int_cont.ipl"
+Loading default scene "data\maps\interior\gen_int1.ipl"
+Loading default scene "data\maps\interior\gen_int2.ipl"
+Loading default scene "data\maps\interior\gen_intb.ipl"
+Loading default scene "data\maps\interior\gen_int3.ipl"
+Loading default scene "data\maps\interior\gen_int4.ipl"
+Loading default scene "data\maps\interior\gen_int5.ipl"
+Loading default scene "data\maps\interior\stadint.ipl"
+Loading default scene "data\maps\interior\savehous.ipl"
+Loading default scene "data\maps\leveldes\levelmap.ipl"
+Loading default scene "data\maps\leveldes\seabed.ipl"
+Loading default scene "data\maps\paths.ipl"
+Loading default scene "data\maps\paths2.ipl"
+Loading default scene "data\maps\paths3.ipl"
+Loading default scene "data\maps\paths4.ipl"
+Loading default scene "data\maps\paths5.ipl"
+Loading default scene "data\maps\cull.ipl"
+Loading default scene "data\maps\tunnels.ipl"
+Loading default scene "data\maps\occlusf.ipl"
+Loading default scene "data\maps\occluveg.ipl"
+Loading default scene "data\maps\occlula.ipl"
+Loading default scene "data\maps\occluint.ipl"
+Loading default scene "data\maps\audiozon.ipl"
+Loading default scene "samp\samp.ipl"
+Loading default train track "data\paths\tracks.dat"
+Loading default train track "data\paths\tracks3.dat"
+Loading default train track "data\paths\tracks2.dat"
+Loading default train track "data\paths\tracks4.dat"
+Opening file for streaming "MODELS\PLAYER.IMG"
+Loading default clothes rules "DATA\CLOTHES.DAT"
+Loading default water level "DATA\water.dat"
+Loading default ped relationship data "DATA\PED.DAT"
+Loading default weapon data "DATA\WEAPON.DAT"
+Loading default ped groups "PEDGRP.DAT"
+Loading default car groups "CARGRP.DAT"
+Starting injected cleo script search 199F7CF8 for version '0'...
+Finishing injected cleo script search 199F7CF8...
+Starting injected cleo script search 199F7B78 for version '4'...
+Finishing injected cleo script search 199F7B78...
+Starting injected cleo script search 199F7AF8 for version '3'...
+Finishing injected cleo script search 199F7AF8...
+Loading default action reaction stats "DATA\AR_STATS.DAT"
+Loading default stat update conditions "DATA\STATDISP.DAT"
+Loading default shopping data "data\shopping.dat"
+Removing imported model file at index 0
+Loading default furniture data "data\furnitur.dat"
+Loading default procedural objects "data\procobj.dat"
+Removing imported model file at index 20000
+Removing imported model file at index 20001
+Removing imported model file at index 20002
+Removing imported model file at index 20003
+Removing imported model file at index 20000
+Removing imported model file at index 20001
+Removing imported model file at index 384
+Removing imported model file at index 385
+Removing imported model file at index 385
+Removing imported model file at index 386
+Removing imported model file at index 386
+Removing imported model file at index 387
+Removing imported model file at index 387
+Removing imported model file at index 388
+Removing imported model file at index 388
+
+
+
+Game version: GTA SA 1.0 US
+Unhandled exception at 0x6F1A37F4 in d3d9.dll (+0x637f4): 0xC0000005: Access violation reading location 0x2DA682F3.
+    Register dump:
+        EAX: 0x301065B8  EBX: 0x3001C7C0  ECX: 0x2DA682C3  EDX: 0x01A3EEF0  
+        EDI: 0x086A87E4  ESI: 0x2A2FBD50  EBP: 0x01A3EEC8  EIP: 0x6F1A37F4  
+        ESP: 0x01A3EEB4  EFL: 0x00010206  CS: 0x00000023   SS: 0x0000002B   
+        GS: 0x0000002B   FS: 0x00000053   ES: 0x0000002B   DS: 0x0000002B   
+        
+    Stack dump:
+        0x01A3EEB4:  301065B8 01A3EEF0 3001C7C0 2A2FBD50 00000008 00000001
+        0x01A3EECC:  00730BA6 3001C7C0 00000000 01A3EEF0 3001C7C0 2A2FBD50
+        0x01A3EEE4:  01A3EF74 00000008 012C0001 22C08008 22C08DA0 107DE058
+        0x01A3EEFC:  01E90000 01A3EF74 01A3EF24 77803C56 2A2FBD50 004CBC22
+        0x01A3EF14:  3001C7C0 01A3EFA8 2A2FBD50 22A8DCAC 007FB03D 00000000
+        0x01A3EF2C:  2A2FBD50 00000000 008E2518 2A2FBD50 01A3EF84 6F88859B
+        0x01A3EF44:  2A2FBD50 22A8DCB0 6F886C7A 01A3EF84 01A3EF7C 01A3EF54
+        0x01A3EF5C:  01A3EFA8 6F888AF0 FFFFFFFF 22A8DCB0 01A3EFA8 22A8DCAC
+        0x01A3EF74:  01A3EFC0 6F888A2D 00000001 22C08DA0 00000000 00000000
+        0x01A3EF8C:  6F8887FE 22A8DCB0 6F86EE68 22A8DCB0 22A8DCAC 22A8DCAC
+        base: 0x01840000   top: 0x01A3EEB4   bottom: 0x01A40000
+        
+    Backtrace (may be wrong):
+        =>0x6F1A37F4 in d3d9.dll (+0x637f4) (0x01A3EEC8) 
+          0x00730BA6 in gta_sa.exe (+0x330ba6) (0x01A3EF04) 
+          0x77803C56 RtlFreeHeap+0x46 in ntdll.dll (+0x43c56) (0x01A3EF3C) 
+          0x6F88859B DllMain+0x14bbc in client.dll (+0x2859b) (0x01A3EF48) 
+          0x6F886C7A DllMain+0x1329b in client.dll (+0x26c7a) (0x01A3EF74) 
+          0x6F888A2D DllMain+0x1504e in client.dll (+0x28a2d) (0x01A3EFC0) 
+          0x6F885CE9 DllMain+0x1230a in client.dll (+0x25ce9) (0x01A3F010) 
+          0x6F885801 DllMain+0x11e22 in client.dll (+0x25801) (0x01A3F094) 
+          0x6F880BD0 DllMain+0xd1f1 in client.dll (+0x20bd0) (0x01A3F0DC) 
+          0x6F87233A in client.dll (+0x1233a) (0x01A3F3A0) 
+          0x6FA0BF30 DllMain+0x198551 in client.dll (+0x1abf30) (0x01A3F3FC) 
+          0x6F872271 in client.dll (+0x12271) (0x01A3F49C) 
+          0x6E62B8E9 in modloader.asi (+0x1b8e9) (0x01A3F4E4) 
+          0x6E62FC02 in modloader.asi (+0x1fc02) (0x01A3F4F8) 
+          0x6E62E267 in modloader.asi (+0x1e267) (0x01A3F514) 
+          0x6E630246 in modloader.asi (+0x20246) (0x01A3F688) 
+          0x6E63013C in modloader.asi (+0x2013c) (0x01A3F694) 
+          0x0053ECC2 in gta_sa.exe (+0x13ecc2) (0x01A3F69C) 
+          0x00619B71 in gta_sa.exe (+0x219b71) (0x01A3F6B0) 
+        
+    
+
+
+Shutting down Mod Loader...
+Shutting down filesystem watcher...
+Shutting down menu...
+Unloading plugin "gta3.std.fx"
+Unloading plugin "gta3.std.asi"
+Unloading plugin "gta3.std.bank"
+Unloading plugin "gta3.std.data"
+Unloading plugin "gta3.std.movies"
+Unloading plugin "gta3.std.scm"
+Unloading plugin "gta3.std.text"
+Unloading plugin "gta3.std.tracks"
+Unloading plugin "gta3.std.sprites"
+Unloading plugin "gta3.std.stream"
+Mod Loader has been shutdown.

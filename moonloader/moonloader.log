@@ -1,0 +1,45 @@
+[21:39:21.419290] (system)	Session started.
+[21:39:21.419290] (debug)	Module handle: 54FD0000
+
+MoonLoader v.026.5-beta loaded.
+Developers: FYP, hnnssy, EvgeN 1137
+
+Copyright (c) 2016, BlastHack Team
+http://blast.hk/moonloader/
+
+[21:39:21.419290] (info)	Working directory: D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader
+[21:39:21.419290] (debug)	FP Control: 0109001F
+[21:39:21.419290] (debug)	Game: GTA SA 1.0.0.0 US
+[21:39:21.419290] (system)	Installing pre-game hooks...
+[21:39:21.422290] (system)	Hooks installed.
+[21:39:33.243196] (debug)	Initializing opcode handler table
+[21:39:33.243196] (debug)	package.path = D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\lib\?.lua;D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\lib\?\init.lua;D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\?.lua;D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\?\init.lua;.\?.lua;D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\lib\?.luac;D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\lib\?\init.luac;D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\?.luac;D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\?\init.luac;.\?.luac
+[21:39:33.243196] (debug)	package.cpath = D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\lib\?.dll;
+[21:39:33.246204] (system)	Loading script 'D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\AutoReboot.lua'...
+[21:39:33.246204] (debug)	New script: 0EA6CB4C
+[21:39:33.247205] (system)	ML-AutoReboot: Loaded successfully.
+[21:39:33.247205] (system)	Loading script 'D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\check-moonloader-updates.lua'...
+[21:39:33.247205] (debug)	New script: 0EA6D914
+[21:39:33.249203] (system)	Check MoonLoader Updates: Loaded successfully.
+[21:39:33.249203] (system)	Loading script 'D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\exit.lua'...
+[21:39:33.249203] (debug)	New script: 0EA6DA9C
+[21:39:33.250205] (system)	exit.lua: Loaded successfully.
+[21:39:33.250205] (system)	Loading script 'D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\mouse.lua'...
+[21:39:33.250205] (debug)	New script: 0EA6C9C4
+[21:39:33.252204] (system)	mouse.lua: Loaded successfully.
+[21:39:33.252204] (system)	Loading script 'D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\reload_all.lua'...
+[21:39:33.252204] (debug)	New script: 0EA6CE5C
+[21:39:33.253203] (system)	ML-ReloadAll: Loaded successfully.
+[21:39:33.253203] (system)	Loading script 'D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\SF Integration.lua'...
+[21:39:33.253203] (debug)	New script: 0EA6CFE4
+[21:39:33.254599] (system)	SF Integration: Loaded successfully.
+[21:39:43.626487] (system)	Installing post-load hooks...
+[21:39:43.626487] (system)	Hooks installed.
+[21:40:19.085380] (system)	Unloading...
+[21:40:19.085380] (system)	ML-AutoReboot: Script terminated. (0EA6CB4C)
+[21:40:19.085380] (system)	Check MoonLoader Updates: Script terminated. (0EA6D914)
+[21:40:19.085380] (system)	exit.lua: Script terminated. (0EA6DA9C)
+[21:40:19.085380] (system)	mouse.lua: Script terminated. (0EA6C9C4)
+[21:40:19.085380] (system)	ML-ReloadAll: Script terminated. (0EA6CE5C)
+[21:40:19.086378] (system)	SF Integration: Script terminated. (0EA6CFE4)
+[21:40:19.138646] (system)	Session terminated.

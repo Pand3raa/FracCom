@@ -1,0 +1,140 @@
+#
+# see default.ide for id ranges
+#
+# flags:TAYCAN
+# 0x01 gets streamed out after 1 car is generated (for dumpsters, MrWoopy etc)
+# 0x02 Don't use. Used by code internally.
+cars
+# Id,	Model name, 	Txd name,	Type 		HandlingId	Game name, 	Anims	Class		Frq	flags   Comprules
+#
+# cars have two extra fields wheelmodelId and wheel scale
+# planes have one extra field model id of low level of detail
+#Excellent Dreams RP new vehicles
+12500, 	sl65amg,		sl65amg,		car, 	SL65,		INFERNU, 	null,	executive,		4, 	0,	0,	 -1, 0.7,  	0.75,	0
+12501, 	f_italia, 		f_italia, 		car, 	FITA, 	INFERNU, 	null,	executive, 		5, 	0,	0,	 -1, 0.73, 	0.76,	0
+12502, 	aston_vantage,	aston_vantage,	car, 	ASTON,	INFERNU, 	null,	executive, 		5, 	0,	0,	 -1, 0.7,  	0.7,	0
+12503, 	s65amg, 		s65amg, 		car, 	S65AMG,	INFERNU, 	null,	richfamily,		10, 0,	0,	 -1, 0.70, 	0.70,	0
+12504, 	ford_gt,		ford_gt,		car, 	BULLETGT,	INFERNU, 	null,	executive,		4, 	0,	0,	 -1, 0.8,  	0.85,	0
+12505, 	escalade, 		escalade, 		car, 	CANYON, 	INFERNU, 	null,	normal, 		10,	0,	0,	 -1, 0.9,  	0.9,	0
+12506, 	corvettec8, 	corvettec8, 	car, 	MONZA, 	INFERNU, 	null,	executive,		1,	0,	0x2ff0,-1,0.75,	0.75,	-1
+12507, 	maserati, 		maserati, 		car, 	MASERATI, 	INFERNU, 	null,	richfamily,		10, 0,	0,	 -1, 0.78, 	0.78,	0
+12508, 	camry, 			camry, 			car, 	CAMRY, 	INFERNU, 	null,	poorfamily,		10, 0,	0,	 -1, 0.75, 	0.75,	0
+12509, 	ml63, 			ml63, 			car, 	RRJEEP, 	HUNTLEY, 	null,	richfamily,		6,	7,	0,	-1, 0.90, 0.90,		0
+12510, 	skoda, 			skoda, 			car, 	SKODA, 	INFERNU, 	null,	normal,			10, 0,	0,	 -1, 0.72, 	0.72,	0
+12511, 	aventador, 		aventador, 		car, 	HURACAN, 	INFERNU, 	null,	executive, 		5, 	0,	0,	 -1, 0.7,  	0.7,	0
+12512, 	audir8, 		audir8, 		car, 	AUDIR8, 	INFERNU, 	null,	executive, 		5, 	0,	0,	 -1, 0.7,  	0.7,	0
+12513, 	lexuslfa, 		lexuslfa, 		car, 	LEXUSLFA, 	INFERNU, 	null,	ignore, 		1,	0,	0,	 -1, 0.75, 	0.75,	-1
+12514, 	chiron, 		chiron, 		car, 	BUGBOL, 	INFERNU, 	null,	executive, 		4, 	0,	0,	 -1, 0.73, 	0.76,	0
+12515, 	taurus, 		taurus, 		car, 	CLS2,	INFERNU,	null, 	richfamily, 	10,	0,	0,	 -1, 0.68, 	0.68,	0
+12516, 	suzuki,			suzuki,			bike,	SUZK,		SANCHEZ,	bikes,	motorbike,		10,	0,	0,	 16, 0.67, 	0.67,	-1
+12517, 	audi_q8,		audi_q8,		car, 	AUDIQ8,	INFERNU, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.844,	0.844,	0
+12518, 	bmw_i850,		bmw_i850,		car, 	ACURNSX,		INFERNU, 	null,	executive, 		5, 	0,	0,	 -1, 0.744,	0.749,	0
+12519, 	audi_rs6_c5,	audi_rs6_c5,	car, 	AUDIRS6,		INFERNU, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.7,  	0.7,	0
+12520, 	bmw_i325,		bmw_i325,		car, 	BMWI350,		INFERNU, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.686,	0.686,	0
+12521, 	bmw_e24,		bmw_e24,		car, 	BMWE24,	INFERNU, 	null,	executive, 		5, 	0,	0,	 -1, 0.668,	0.668,	0
+12522, 	bmw_e38,		bmw_e38,		car, 	BMWE38,	INFERNU, 	null,	normal, 		5, 	0,	0,	 -1, 0.782,	0.782,	0
+12523, 	bmw_m1,			bmw_m1,			car, 	BMWM1,		INFERNU, 	null,	executive, 		5, 	0,	0,	 -1, 0.664,	0.664,	0
+12524, 	brabus_rock,	brabus_rock,	car, 	BRABUS,	INFERNU, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.816,	0.816,	0
+12525, 	f_jaguar,		f_jaguar,		car, 	SUBBRZ,		INFERNU, 	null,	executive, 		5, 	0,	0,	 -1, 0.696, 0.701,	0
+12526, 	urus,			urus,			car, 	URUS,	INFERNU, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.954, 0.954,	0
+12527, 	c63_second,		c63_second,		car, 	C63COUPE,		INFERNU, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.664, 0.664,	0
+12528,	eclipse,		eclipse,		car, 	ECLIPSE,		INFERNU, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.746,	0.746,	0
+12529,	evolution_x,	evolution_x,	car, 	EVOLUTIONX,		INFERNU, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.71,  0.71,	0
+12530,	mini,		mini,		car, 	SOCTAV,	INFERNU, 	null,	poorfamily, 	5, 	0,	0,	 -1, 0.664, 0.664,	0
+12531,	tesla_x,		tesla_x,		car, 	TESLAX,	INFERNU, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.78, 	0.78,	0
+12532, bentayga, 		bentayga,		car, 	BENTAGE,	INFERNU, 	null,	richfamily,		6,	0,	0,	 -1, 0.95, 	0.95,	0
+12533, bmw_e34, 		bmw_e34, 		car, 	E34,	INFERNU, 	null,	richfamily,		6,	0,	0,	 -1, 0.73,	0.73,	0
+12534, bmw_x5, 			bmw_x5, 		car, 	BMWX5,	INFERNU, 	null,	richfamily,		6,	0,	0,	 -1, 0.928, 0.928,	0
+12535, civil_explorer, 	civil_explorer,	car, 	FORDCIVIL,	INFERNU, 	null,	richfamily,		6,	0,	0,	 -1, 0.926, 0.926,	0
+12536, f_raptor, 		f_raptor,		car, 	G6X6,		INFERNU, 	null,	richfamily,		6,	0,	0,	 -1, 0.868, 0.868,	0
+12537, mercedes_300sl,	mercedes_300sl, car, 	SLS,	INFERNU, 	null,	richfamily,		6,	0,	0,	 -1, 0.744, 0.744,	0
+12538, cayenne, 		cayenne, 		car, 	CAYENY,	INFERNU, 	null,	richfamily,		6,	0,	0,	 -1, 0.8, 	0.8,	0
+12539, new_rangerover,	new_rangerover, car, 	TUAREG,	INFERNU, 	null,	richfamily,		6,	0,	0,	 -1, 0.844, 0.844,	0
+12540, challenger_helcat,challenger_helcat,car, RX7, 	INFERNU, 	null,	executive, 		5, 	0,	0,	 -1, 0.846, 0.846, 	0
+12541, bmw_i8, 			bmw_i8,			car, 	I8,		INFERNU, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.85, 	0.85, 	0
+12542, cayman_s,  		cayman_s,		car, 	CAYMANS,		INFERNU, 	null,	normal, 		10, 0,	0,	 -1, 0.8,  	0.8,	0
+12543, passat, 			passat,			car, 	PASSATCC, 	INFERNU, 	null,	executive, 		5, 	0,	0,	 -1, 0.784, 0.784, 	0
+12544,	honda_cbr,		honda_cbr,		bike,	CBR,	PCJ600,		bikes,	motorbike,		7,	0,	0,	 16, 0.67, 0.67,	-1
+12545,	yamaha_rsix, 	yamaha_rsix,	bike,	YAMAHA,		PCJ600,		bikes,	motorbike,		9,	0,	3f341210,16,0.68,0.68,	-1
+12546, bmwm6, bmwm6, car, BMWM6, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0 
+12547, camaros, camaros, car, CAMAROS, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0 
+12548, cls, cls, car, CLS, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12549, gtr2017, gtr2017, car, GTR2017, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12550, hotwheel, hotwheel, car, HOTWHEEL, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12551, lambsvj, lambsvj, car, LAMBSVJ, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12552, lc200, lc200, car, LC200, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12553, macan, macan, car, MACAN, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12554, mbe63, mbe63, car, MBE63, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12555, supa90, supa90, car, SUPA90, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0  
+12556, tmodels, tmodels, car, TMODELS, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0 
+12557, gls63, gls63, car, GLE, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0 
+12558, mustang, mustang, car, MUSTANG, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12559, m5f90, m5f90, car, M5CS, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12560, gt63, gt63, car, GT63, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12561, panamera, panamera, car, PANAMERA, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12562, skygtr, skygtr, car, SKYGTR, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12563, impreza, impreza, car, CABAN, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12564, volvo90, volvo90, car, VOLVO90, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12565, 760li, 760li, car, 760LI, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12566, merss600, merss600, car, MERSS600, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12567, e92, e92, car, E92, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12568, civicr, civicr, car, CIVICR, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12569, c63, c63, car, C63, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12570, chalange, chalange, car, CHALANGE, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12571, i8, i8, car, VISION, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12572, amggt, amggt, car, AMGGT, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12573, accord, accord, car, ACCORD, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12574, bm2, bm2, car, E36, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12575, x6m, x6m, car, X6M, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12576, e63amg, e63amg, car, BENT, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12577, m5e60, m5e60, car, M5E60, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12578, w124, w124, car, W124, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12579, zr1, zr1, car, ZR1, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12580, s8, s8, car, AUDIS6, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12581, g65, g65, car, G63, HUNTLEY, 	null,	richfamily,		6,	7,	0,	-1, 0.90, 0.90,		0
+12582, rolsw, rolsw, car, PHANTHOM, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12583, bmwz8, bmwz8, car, BMWZ8, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12584, aston, aston, car, OLDMUST, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12585, kawasaki,		kawasaki,		bike,		KAWASAKI,		NRG500,		bikes,	motorbike,	10,	0,	1f341210,		16, 0.68, 0.68,		-1
+12586, charger90, charger90, car, CHARGER90, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12587, supratun, supratun, car, SUPRATUN, JESTER, 	null,	richfamily, 	7, 	0,	0,		-1, 0.7, 0.7,		1
+12588, m4f82, m4f82, car, BMWM4, JESTER, 	null,	richfamily, 	7, 	0,	0,		-1, 0.7, 0.7,		1
+12589, mustanggt, mustanggt, car, AUDITT, JESTER, 	null,	richfamily, 	7, 	0,	0,		-1, 0.7, 0.7,		1
+12590, rs6, rs6, car, RS6, JESTER, 	null,	richfamily, 	7, 	0,	0,		-1, 0.7, 0.7,		1
+12591, x7, x7, car, CHEROKE, LANDSTAL, 	null,	richfamily, 	7, 	0,	0,		-1, 0.7, 0.7,		1
+12592, ars7, ars7, car, PRIUS, LANDSTAL, 	null,	richfamily, 	7, 	0,	0,		-1, 0.7, 0.7,		1
+12593, MarkX_2018_GR, MarkX_2018_GR, car, GOLFGTI, LANDSTAL, 	null,	richfamily, 	7, 	0,	0,		-1, 0.7, 0.7,		1
+12594, a45, a45, car, FOCUSRS, LANDSTAL, 	null,	richfamily, 	7, 	0,	0,		-1, 0.7, 0.7,		1
+12595, fer812, fer812, car, FER812, BULLET, 	null,	richfamily, 	7, 	0,	0,		-1, 0.7, 0.7,		1
+12596, 911, 911, car, PR911, LANDSTAL, 	null,	richfamily, 	7, 	0,	0,		-1, 0.7, 0.7,		1
+12597, wrx, wrx, car, WRX, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12598, romeo, romeo, car, CLA45, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12599, meqs, meqs, car, G63EGQ, LANDSTAL, null, richfamily, 7, 0, 0,-1, 0.8,0.8,1
+12600, laferr, laferr,car,LAFERR,INFERNU, null,richfamily,     7,     0,    0,        -1, 0.8, 0.8,        1
+12601, taycan, taycan, car, TAYCAN, INFERNU,null,richfamily,     7,     0,    0,        -1, 0.8, 0.8,        1
+12602, divo,     divo,     car,         BUGDIVO,     BULLET,     null,    normal,     10,    0,    0,        -1, 0.8, 0.8,        0
+12603, rchiron,     rchiron,     car,         CHIRON,     INFERNU,     null,    normal,     10,    0,    0,        -1, 0.8, 0.8,        0
+12604, m3gtr,        m3gtr,        car,         M3GTR,         ELEGY,         null,    richfamily,     7,     0,    0,        -1, 0.72, 0.72,        1
+12605, 	urusm,	urusm,	car, 	URUSM,	INFERNU, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.954, 0.954,	0
+12606, 	g63m,	g63m,	car, 	G63M, 	HUNTLEY, 	null,	richfamily,		6,	7,	0,	-1, 0.90, 0.90,		0
+12607, 	rrm,	rrm,	car, 	RRM,	LANDSTA, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.954, 0.954,	0
+12608, 	812m,	812m,	car, 	VALK,	BULLET, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.954, 0.954,	0
+12609, s63b, s63b, car, S63B, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12610, 720mc,720mc,car,MCLR,INFERNU, null,richfamily,     7,     0,    0,        -1, 0.8, 0.8,        1
+12611, amgone, amgone, car, GEMERA, BULLET, null, normal,10,0,0,-1, 0.8, 0.8,0
+12612, m3g20, m3g20, car, G20, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12613, lxis, lxis, car, LXIS, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12614, BMWM8, BMWM8, car, M8, INFERNU,null,richfamily, 7, 0, 0,-1, 0.8, 0.8,1
+12615, new63, new63, car, E63S, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12616, RAPTOR, RAPTOR, car, RAPTOR, INFERNU, null,	normal, 10,0,0,-1, 0.9,0.9,0
+12617, mers211, mers211, car, W211, INFERNU, null,	normal, 10,0,0,-1, 0.73,0.73,0
+12618, lc300, lc300, car, TL300, HUNTLEY, 	null,	richfamily,		6,	7,	0,	-1, 0.90, 0.90,		0
+12619, lx660, lx660, car, L660,	HUNTLEY, 	null,	richfamily,		6,	7,	0,	-1, 0.90, 0.90,		0
+12620, jgpace, jgpace, car, PACE, HUNTLEY, 	null,	richfamily,		6,	7,	0,	-1, 0.90, 0.90,		0
+12621, 	audia7,	audia7,	car, 	AA7,	INFERNU, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.75, 0.75,	0
+12622, 	rollsm,	rollsm,	car, 	rrrm,	INFERNU, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.954, 0.954,	0
+12623, 	frj50,	frj50,	car, 	J50,	INFERNU, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.90, 0.90,	0
+12624, 	velar,	velar,	car, 	RVELAR,	INFERNU, 	null,	richfamily, 	5, 	0,	0,	 -1, 0.954, 0.954,	0
+12625, bmwe30, bmwe30, car, E30, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+12626, buggys, buggys, car, PLARIS, BULLET, null, normal, 10, 0, 0, -1, 0.8, 0.8, 0
+end

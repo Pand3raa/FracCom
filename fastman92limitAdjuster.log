@@ -1,0 +1,106 @@
+Starting fastman92 limit adjuster 6.0, compilation time: Mar 26 2021 04:55:38 (UTC)
+Website: http://fastman92.com
+
+Launch time: 22-1-2025 17:39:21 (UTC), 21:39 (local)
+Launched during the day.
+
+Solution platform: WIN_X86
+FASTMAN92_LIMIT_ADJUSTER_RELEASE_DIRECTORY is not defined. Documentation files will not be written.
+Game detected: GTA SA 1.0 US HOODLUM 14383616 bytes
+Game uses dynamic image base? No
+Game preferred image base: 0x400000
+Game current image base: 0x400000
+
+Number of FLA modules: 70
+Delayed processing of limits? No
+
+Root base directory: 
+Root directory: D:\SAMP GTA'S AND THINGS\FracCom Coffee
+Initial directory: D:\SAMP GTA'S AND THINGS\FracCom Coffee
+INI filename: fastman92limitAdjuster_GTASA.ini
+
+Global exception handler has been registered.
+---------------------------------------------
+At least one ID limit is changed. ID limits will be patched.
+COL ID limit is over 256 and requires something more than uint8_t. Applying COL ID uint32_t patches.
+IPL ID limit is over 256 and requires something more than uint8_t. Applying IPL ID uint32_t patches.
+
+New ID limits:
+0 - 19999 (20000) - DFF models defined within IDE files
+20000 - 29999 (10000) - TXD texture archives.
+30000 - 30299 (300) - COL collision archives.
+30300 - 30599 (300) - IPL Binary IPL files.
+30600 - 30663 (64) - DAT files limited to nodes*.dat
+30664 - 30843 (180) - IFP animation archives.
+30844 - 31318 (475) - RRR car recordings, carrec*.rrr files
+31319 - 31400 (82) - SCM scripts
+31401 - 31402 (2) - Loaded list
+31403 - 31404 (2) - Requested list
+31405 - count of all file IDs
+
+
+Addresses:
+CModelInfo::ms_modelInfoPtrs: 0xA9B0C8
+CStreaming::ms_aInfoForModel: 0x4405020
+CAnimManager::ms_aAnimBlocks: 0xB5D4A0
+CVehicleRecording::StreamingArray: 0x97D880
+CTheScripts::StreamedScripts: 0xA47B60
+
+
+Format of new savefiles will be different: patch for block of IPL flags is applied! Number of IPL flags will depend on current IPL ID limit.
+Format of new savefiles will be different: patch for enhanced format of model flags block is applied!
+Format of new savefiles will be different: patch for save game of variable length is applied!
+---------------------------------------------
+Modified count of killable model IDs: 20000
+---------------------------------------------
+Format of new savefiles will be different: patch for car generators with CCarGenerator_extended structure is applied!
+Format of new savefiles will be different: patch for save game of variable length is applied!
+Modified limit Car generators to: 500 Is CCarGenerator_extended structure used: 1
+---------------------------------------------
+---------------------------------------------
+Enabling handling.cfg limit adjuster.
+New limits:
+Number of standard lines = 450
+Number of bike lines = 19
+Number of flying lines = 26
+Number of boat lines = 14
+Number of animation group lines = 30
+
+&mod_HandlingManager = 0x1BE5FC8, sizeof(mod_HandlingManager) = 0x1CC58
+---------------------------------------------
+Modified limit of IPL:inst, buildings to: 20000
+---------------------------------------------
+Modified max number of IMG archives to: 31
+---------------------------------------------
+Modified limit of VISIBILITY: Alpha list limit to: 100
+---------------------------------------------
+Modified limit of VISIBILITY: Alpha entity list limit to: 1500
+---------------------------------------------
+Vehicle special features are enabled
+Number of hydra vehicles = 1
+Hydra 0 = 520
+Number of ZR350 vehicles = 1
+ZR350 0 = 477
+ZR350 1 = 12524
+ZR350 2 = 12552
+ZR350 3 = 12572
+ZR350 4 = 12574
+ZR350 5 = 12584
+ZR350 6 = 12662
+ZR350 7 = 12682
+ZR350 8 = 12684
+---------------------------------------------
+SPECIAL: Make paintjobs work for any ID applied.
+---------------------------------------------
+Debugging output is enabled now. Use debugger to catch messages.
+---------------------------------------------
+Weapon type loader is enabled. NumberOfWeaponTypes = 154.
+Melee combo type loader is enabled. Max number of melee combos = 21.
+---------------------------------------------
+Vehicle audio loader is enabled
+---------------------------------------------
+FLA loading text is disabled.
+---------------------------------------------
+Number of memory changes made: 2288
+---------------------------------------------
+Game closed.

@@ -1,0 +1,38 @@
+Start game
+Hook crt
+Hook fonts
+Load SAMP
+Hook startupInfo
+Hook SAA
+Load crashlog
+Hook gameloop
+Hook SAA2: C:\Users\tatia\Desktop\tedos failebi\AddonLoader\modloader/ to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\
+Init cursor
+Init d3d9
+Hook dx
+Hook SAA2: NUL to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\NUL
+Hook SAA2: NUL to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\NUL
+Hook SAA2: NUL to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\NUL
+Hook SAA2: NUL to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\NUL
+Hook SAA2: NUL to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\NUL
+Hook SAA2: NUL to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\NUL
+Hook SAA2: NUL to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\NUL
+Hook SAA2: NUL to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\NUL
+Hook SAA2: NUL to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\NUL
+Hook SAA2: NUL to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\NUL
+Hook SAA2: NUL to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\NUL
+Hook SAA2: NUL to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\NUL
+Hook SAA2: NUL to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\NUL
+Hook SAA2: NUL to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\NUL
+Hook SAA2: NUL to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\NUL
+Init events
+Create plugin
+Subscribe on mainloop
+Hook SAA2: CORE_GAME\ARIZONA.TXD to C:\Users\tatia\Desktop\tedos failebi\AddonLoader\core_game\ARIZONA.TXD
+Load arizona.txd
+Init game
+Set mem 2048
+Hook RakClient
+Hook RPCStore
+Hook RakClient vtbl
+Stream fix

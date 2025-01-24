@@ -1,0 +1,188 @@
+# Author: fastman92
+# fastman92 limit adjuster required to apply new weapon types
+
+#
+# ALL WEAPONS
+#-----------------------------------------------
+#	A:		int weaponTypeID, can be -1 to find first free ID
+#	B:		string weaponTypeName
+#	C:		int statIndex
+#	D:		bool bCanBeUsedForSecondPlayer
+#	E:		bool bHasWeaponAmmoToBeUsed
+#	F:		int AmmoForWeapon_OnStreet
+#	G:		int PickupMsgColor.red
+#	H:		int PickupMsgColor.green
+#	I:		int PickupMsgColor.blue
+#	J:		float PickupMsgUnk4
+#	K:		string parentWeaponType - optional parameter
+#
+# Weapons with statIndex specified will require poor, standard and professional line in weapon.dat.
+# Additionally the weapons with statIndex specified and which derive from PISTOL will also require special line.
+#
+
+# weaponType                              statIndex  bCanBeUsedForSecondPlayer  bHasWeaponAmmoToBeUsed  AmmoForWeapon_OnStreet  PickupMsgColor  PickupMsgUnk4  parentWeaponType
+# A   B                                    C         D                          E                       F						G    H    I     J              K
+0     UNARMED                             -1         1                          1                       0                       128  128   128  1.0            
+1     BRASSKNUCKLE                        -1         1                          1                       1                       128  128   128  1.0            
+2     GOLFCLUB                            -1         1                          1                       1                       97   194   247  1.0            
+3     NIGHTSTICK                          -1         1                          1                       1                       97   194   247  1.0            
+4     KNIFE                               -1         1                          1                       1                       97   194   247  1.0            
+5     BASEBALLBAT                         -1         1                          1                       1                       97   194   247  1.0            
+6     SHOVEL                              -1         1                          0                       1                       97   194   247  1.0            
+7     POOLCUE                             -1         1                          0                       1                       97   194   247  1.0            
+8     KATANA                              -1         1                          1                       1                       97   194   247  1.0            
+9     CHAINSAW                            -1         0                          1                       1                       97   194   247  1.0            
+10    DILDO1                              -1         1                          1                       1                       97   97    97   1.0            
+11    DILDO2                              -1         1                          1                       1                       97   97    97   1.0            
+12    VIBE1                               -1         1                          1                       1                       97   97    97   1.0            
+13    VIBE2                               -1         1                          1                       1                       97   97    97   1.0            
+14    FLOWERS                             -1         1                          1                       1                       97   97    97   1.0            
+15    CANE                                -1         1                          0                       1                       97   97    97   1.0            
+16    GRENADE                             -1         1                          0                       8                       27   89    130  1.0            
+17    TEARGAS                             -1         1                          0                       8                       27   89    130  1.0            
+18    MOLOTOV                             -1         1                          0                       8                       27   89    130  1.0            
+19    ROCKET                              -1         1                          0                       8                       27   89    130  1.0            
+20    ROCKET_HS                           -1         1                          0                       4                       27   89    130  1.0            
+21    FREEFALL_BOMB                       -1         1                          0                       4                       27   89    130  1.0            
+22    PISTOL                              69         1                          0                       30                      149  194   24   1.0            
+23    PISTOL_SILENCED                     70         1                          0                       10                      149  194   24   1.0            
+24    DESERT_EAGLE                        71         1                          0                       10                      149  194   24   1.0            
+25    SHOTGUN                             72         1                          0                       15                      45   155   90   1.0            
+26    SAWNOFF                             73         1                          0                       10                      45   155   90   1.0            
+27    SPAS12                              74         1                          0                       10                      45   155   90   1.0            
+28    MICRO_UZI                           75         1                          0                       60                      255  227   79   1.0            
+29    MP5                                 76         1                          0                       60                      255  227   79   1.0            
+30    AK47                                77         1                          0                       80                      254  137   0    1.0            
+31    M4                                  78         1                          0                       80                      254  137   0    1.0            
+32    TEC9                                75         1                          0                       60                      255  227   79   1.0            
+33    COUNTRYRIFLE                        -1         1                          0                       20                      249  131   215  1.0            
+34    SNIPERRIFLE                         -1         0                          0                       10                      249  131   215  1.0            
+35    RLAUNCHER                           -1         0                          0                       4                       164  40    178  1.0            
+36    RLAUNCHER_HS                        -1         1                          0                       3                       164  40    178  1.0            
+37    FTHROWER                            -1         1                          0                       100                     164  40    178  1.0            
+38    MINIGUN                             -1         1                          0                       500                     164  40    178  1.0            
+39    SATCHEL_CHARGE                      -1         1                          0                       5                       164  40    178  1.0            
+40    DETONATOR                           -1         1                          0                       1                       164  40    178  1.0            
+41    SPRAYCAN                            -1         1                          0                       500                     97   194   247  1.0            
+42    EXTINGUISHER                        -1         1                          0                       500                     69   69    69   1.0            
+43    CAMERA                              -1         1                          0                       36                      69   69    69   1.0            
+44    NIGHTVISION                         -1         1                          0                       0                       69   69    69   1.0            
+45    INFRARED                            -1         1                          0                       0                       69   69    69   1.0            
+46    PARACHUTE                           -1         0                          1                       1                       69   69    69   1.0            
+
+# additional settings for some weapons
+! SET_ASSOCIATED_WEAPON RLAUNCHER ROCKET
+! SET_ASSOCIATED_WEAPON RLAUNCHER_HS ROCKET_HS
+! SET_ASSOCIATED_WEAPON SATCHEL_CHARGE DETONATOR
+
+# IDs 47 to 59 are reserved for internal game usage
+# 47 LAST_WEAPONTYPE
+# 48 ARMOUR
+# 49 RAMMEDBYCAR
+# 50 RUNOVERBYCAR
+# 51 EXPLOSION
+# 52 UZI_DRIVEBY
+# 53 DROWNING
+# 54 FALL
+# 55 UNIDENTIFIED
+# 56 ANYMELEE
+# 57 ANYWEAPON
+# 58 FLARE
+# 59 TANK_GRENADE
+
+# IDs 60 to 69 are reserved for limit adjuster future use
+# 60 JETPACK_TYPE
+# 61 BINOCULARS_TYPE, derived from NIGHTVISION
+
+# ----------------------------------- added weapons -----------------------------------
+# you will add entries of new weapons probably here
+
+# weaponType                              statIndex  bCanBeUsedForSecondPlayer  bHasWeaponAmmoToBeUsed  AmmoForWeapon_OnStreet  PickupMsgColor  PickupMsgUnk4  parentWeaponType
+# A   B                                    C         D                          E                       F						G    H    I     J              K
+#70    JETPACK                             -1         1                          0                       0                       69   69    69   1.0            JETPACK_TYPE
+#71    SKATEBOARD                          -1         1                          1                       1                       97   194   247  1.0            BASEBALLBAT
+#72    BINOCULARS                          -1         1                          0                       0                       69   69    69   1.0            BINOCULARS_TYPE
+70   LCS_GLOCK17                           69         1                          0                       30                      149  194   24   1.0            PISTOL
+71   SAB_AK47                              77         1                          0                       80                      254  137   0    1.0			AK47
+72   VC_PYTHON	                           71         1                          0                       10                      149  194   24   1.0      		DESERT_EAGLE
+73   VC_RUGER                              77         1                          0                       80                      254  137   0    1.0          	AK47
+74   VCB_INGRAM_SILENCED                   75         1                          0                       60                      255  227   79   1.0       		PISTOL_SILENCED
+75   VCB_MP5_SHORT                         76         1                          0                       60                      255  227   79   1.0         	MP5
+76   VCB_STEYR_AUG                         77         1                          0                       80                      254  137   0    1.0      		AK47
+77   LCS_LASER				   			   -1	      0				 			 0				 		 10                      249  131   215  1.0            COUNTRYRIFLE
+78   LCS_PYTHON			   				   71	      1				 			 0			 			 10                      149  194   24   1.0         	DESERT_EAGLE
+79   VCS_BERETTA                           69         1                          0                       30                      149  194   24   1.0            PISTOL
+80   VCS_EQUALIZER	                   	   71         1                          0                       10                      149  194   24   1.0      		DESERT_EAGLE
+81   VCS_INGRAM                	   		   75         1                          0                       60                      255  227   79   1.0     		TEC9
+82   VCS_SKORPION                          75         1                          0                       60                      255  227   79   1.0 			TEC9
+83   VCS_SP89				   			   76	      1				 			 0			 			 60                      255  227   79   1.0            MP5
+84   VCS_SVD				   			   -1	      0				 			 0			 			 10                      249  131   215  1.0            COUNTRYRIFLE
+85   UG_56_II                              74         1                          0                       10                      45   155   90   1.0            AK47
+86   UG_AA12                               77         1                          0                       80                      254  137   0    1.0            SPAS12
+87   UG_AUGA3	                           77         1                          0                       80                      254  137   0    1.0      		AK47
+88   UG_AWP	                           	   -1         0                          0                       10                      249  131   215  1.0            COUNTRYRIFLE
+89   UG_CARTELREVOLVER	                   71         1                          0                       10                      149  194   24   1.0      		DESERT_EAGLE
+90   UG_ES57                               69         1                          0                       30                      149  194   24   1.0            PISTOL
+91   UG_FAMAS                              78         1                          0                       80                      254  137   0    1.0            M4
+92   UG_G36C                               76         1                          0                       60                      255  227   79   1.0      		M4
+93   UG_GALIL                              77         1                          0                       80                      254  137   0    1.0            AK47
+94   UG_HK416                              78         1                          0                       80                      254  137   0    1.0            M4
+95   UG_KRISS                              76         1                          0                       60                      255  227   79   1.0      		MP5
+96   UG_LUXWALT                            69         1                          0                       30                      149  194   24   1.0       		PISTOL
+97   UG_M82	                           	   -1         0                          0                       10                      249  131   215  1.0            COUNTRYRIFLE
+98   UG_M200	                           -1         0                          0                       10                      249  131   215  1.0            COUNTRYRIFLE
+99   UG_OLDIE		                       71         1                          0                       10                      149  194   24   1.0      		DESERT_EAGLE
+100   UG_P90                               76         1                          0                       60                      255  227   79   1.0   			MP5
+101   UG_PUMP_SHOTGUN                      74         1                          0                       10                      45   155   90   1.0            SPAS12
+102   UG_REVOLVERRIFLE	                   -1         1                          0                       20                      249  131   215  1.0            COUNTRYRIFLE
+103   UG_SCAR                              78         1                          0                       80                      254  137   0    1.0    		M4
+104   UG_SILENCED_UZI                      76         1                          0                       60                      255  227   79   1.0    		PISTOL_SILENCED
+105   UG_SPCARBINE                         76         1                          0                       60                      255  227   79   1.0   			MP5
+106   UG_TMP	                           75         1                          0                       60                      255  227   79   1.0  			PISTOL_SILENCED
+107   UG_TOMMYGUN                          76         1                          0                       60                      255  227   79   1.0   			M4
+108   UG_UMP45                             76         1                          0                       60                      255  227   79   1.0   			MP5
+109   UG_XM8                               77         1                          0                       80                      254  137   0    1.0            M4
+110   CC_SPAS12                            74         1                          0                       10                      45   155   90   1.0     		SPAS12
+111   CM_REVOLVER                          71         1                          0                       10                      149  194   24   1.0           	DESERT_EAGLE
+112   CM_SPAS12                            74         1                          0                       10                      45   155   90   1.0     		SPAS12
+113   CM_CROSSBOW	                       70         1                          0                       10                      149  194   24   1.0            COUNTRYRIFLE
+114   CM_FLAREGUN	                   	   70         1                          0                       10                      149  194   24   1.0            DESERT_EAGLE
+115   UG_AKSOPMOD	                       77         1                          0                       80                      254  137   0    1.0      		AK47
+116   UG_PAINTBALL	                       70         1                          0                       10                      149  194   24   1.0          	PISTOL_SILENCED
+117   UG_SEW500		                       71         1                          0                       10                      149  194   24   1.0      		DESERT_EAGLE
+118   SAB_GLOCK                            69         1                          0                       30                      149  194   24   1.0      		PISTOL
+119   UG_CAMOSNIPER                        -1         0                          0                       10                      249  131   215  1.0            COUNTRYRIFLE
+120   UG_MP7	                           75         1                          0                       60                      255  227   79   1.0  			MP5
+121   VCS_M249                             -1         1                          0                       100                     254  137   0    1.0    		M4
+122   VCS_BINOCULARS                       -1         1                          0                       0                       69   69    69   1.0            BINOCULARS_TYPE
+123   CM_BOUQUET                           -1         1                          1                       1                       97   97    97   1.0            FLOWERS
+124   SAB_THROWINGKNIFE                    -1         1                          1                       1                       97   194   247  1.0    		KNIFE
+125   SAB_SWITCHBLADE                      -1         1                          1                       1                       97   194   247  1.0    		KNIFE
+126   VC_KNIFECUR                          -1         1                          1                       1                       97   194   247  1.0   			KNIFE
+127   LCS_HANDAXE                          -1         1                          1                       1                       97   194   247  1.0   			KNIFE
+128   LCS_KNIFECUR                         -1         1                          1                       1                       97   194   247  1.0   			KNIFE
+129   LCS_MACHETE		  	   			   -1	      1				 			 1			 			 1                       97   194   247  1.0            KATANA
+130   VCS_BASEBALLBAT                      -1         1                          1                       1                       97   194   247  1.0         	BASEBALLBAT
+131   VCS_BUTTERFLYKNIFE                   -1         1                          1                       1                       97   194   247  1.0   			KNIFE
+132   VCS_HANDAXE                          -1         1                          1                       1                       97   194   247  1.0   			KNIFE
+133   VCS_KNIFECUR                         -1         1                          1                       1                       97   194   247  1.0   			KNIFE
+134   UG_BONEKNIFE                         -1         1                          1                       1                       97   194   247  1.0       		KNIFE
+135   UG_FASTHAWK                          -1         1                          1                       1                       97   194   247  1.0            KNIFE
+136   UG_FIREAXE                           -1         1                          1                       1                       97   194   247  1.0   			KATANA
+137   UG_HATCHET                           -1         1                          1                       1                       97   194   247  1.0         	KNIFE
+138   UG_KITCHENKNIFE                      -1         1                          1                       1                       97   194   247  1.0         	KNIFE
+139   UG_KUKRI	                           -1         1                          1                       1                       97   194   247  1.0         	KNIFE
+140   UG_MACHETE                           -1         1                          1                       1                       97   194   247  1.0   			KATANA
+141   UG_PICKAXE                           -1         1                          1                       1                       97   194   247  1.0   			SHOVEL
+142   UG_TACTICALFIST                      -1         1                          1                       1                       97   194   247  1.0   			KATANA
+143   UG_TOMAHAWK                          -1         1                          1                       1                       97   194   247  1.0   			KATANA
+144   BW_BASEBALLBAT                       -1         1                          1                       1                       97   194   247  1.0            BASEBALLBAT
+145   BW_DEVILFORK                         -1         1                          0                       1                       97   97    97   1.0            CANE
+146   BW_NEWSROLL                          -1         1                          1                       1                       97   194   247  1.0            DILDO1
+147   CC_BASEBALLBAT                       -1         1                          1                       1                       97   194   247  1.0            BASEBALLBAT
+148   CC_SICKLE                      	   -1         1                          1                       1                       97   194   247  1.0    		KNIFE
+149   CM_SYRINGE                           -1         1                          1                       1                       97   194   247  1.0   			KNIFE
+150   UG_KARAMBIT                          -1         1                          1                       1                       97   194   247  1.0   			KNIFE
+151   UG_SPIKEDKNUCKLE                     -1         1                          1                       1                       128  128   128  1.0      		BRASSKNUCKLE
+152   UG_SWORD                             -1         1                          1                       1                       97   194   247  1.0         	KATANA
+153   CM_TRANQILIZER                       70         1                          0                       10                      149  194   24   1.0        	PISTOL_SILENCED

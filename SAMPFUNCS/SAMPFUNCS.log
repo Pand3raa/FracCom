@@ -1,0 +1,69 @@
+[21:39:21] 
+SAMPFUNCS v5.4.1-final rel.21 (SA-MP 0.3.7-R1)
+Compiled: Dec 24 2018 03:13:37
+
+Copyright (c) 2013-2018, BlastHack Team <blast.hk>
+
+[21:39:21] Base address: 0x50E40000.
+[21:39:21] Initializing opcodes...
+[21:39:21] Opcodes initialized successfully. Total opcodes: 382.
+[21:39:21] Hook "CTimer::GetRealTimeScale" installed.
+[21:39:21] Hook "CPad::Update" installed.
+[21:39:21] Hook "CCamera::RenderMotionBlur" installed.
+[21:39:21] Hook "CScriptThread::AddScriptToQueue" installed.
+[21:39:21] Hook "CScriptThread::RemoveScriptFromQueue" installed.
+[21:39:21] Hook "CScriptThread::Process" installed.
+[21:39:21] Hook "WinMainLoop" installed.
+[21:39:21] Hook "CLoadingScreen::RenderSplash" installed.
+[21:39:21] Hook "CVehicle::CVehicle" installed.
+[21:39:21] Hook "CVehicle::~CVehicle" installed.
+[21:39:21] Hook "CPed::CPed" installed.
+[21:39:21] Hook "CPed::~CPed" installed.
+[21:39:33] samp.dll base addres: 0x03E70000
+[21:39:33] Hook "SAMP: CNetGame::CNetGame" installed.
+[21:39:33] Hook "SAMP: CDialog::Close" installed.
+[21:39:33] Hook "SAMP: QuitGame" installed.
+[21:39:33] Hook "SAMP: CCmdWindow::ProcessInput" installed.
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {C0C0C0}Session started.
+[21:39:43] {C0C0C0}[ML] {C0C0C0}
+MoonLoader v.026.5-beta loaded.
+[21:39:43] {C0C0C0}[ML] {C0C0C0}Developers: FYP, hnnssy, EvgeN 1137
+
+[21:39:43] {C0C0C0}[ML] {C0C0C0}Copyright (c) 2016, BlastHack Team
+[21:39:43] {C0C0C0}[ML] {C0C0C0}http://blast.hk/moonloader/
+
+[21:39:43] {C0C0C0}[ML] {A9EFF5}(info) {C0C0C0}Working directory: D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {C0C0C0}Installing pre-game hooks...
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {C0C0C0}Hooks installed.
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {C0C0C0}Loading script 'D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\AutoReboot.lua'...
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {E0E0E0}ML-AutoReboot: {C0C0C0}Loaded successfully.
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {C0C0C0}Loading script 'D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\check-moonloader-updates.lua'...
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {E0E0E0}Check MoonLoader Updates: {C0C0C0}Loaded successfully.
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {C0C0C0}Loading script 'D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\exit.lua'...
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {E0E0E0}exit.lua: {C0C0C0}Loaded successfully.
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {C0C0C0}Loading script 'D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\mouse.lua'...
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {E0E0E0}mouse.lua: {C0C0C0}Loaded successfully.
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {C0C0C0}Loading script 'D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\reload_all.lua'...
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {E0E0E0}ML-ReloadAll: {C0C0C0}Loaded successfully.
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {C0C0C0}Loading script 'D:\SAMP GTA'S AND THINGS\FracCom Coffee\moonloader\SF Integration.lua'...
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {E0E0E0}SF Integration: {C0C0C0}Loaded successfully.
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {C0C0C0}Installing post-load hooks...
+[21:39:43] {C0C0C0}[ML] {FA9746}(system) {C0C0C0}Hooks installed.
+[21:39:44] Direct3DDevice9 hook installed.
+[21:39:44] Hook "SAMP: RakPeer::HandleRPCPacket" installed.
+[21:39:44] Initializing SAMP data...
+[21:39:44] Info initialized.
+[21:39:44] Pools initialized.
+[21:39:44] Player pool initialized.
+[21:39:44] Vehicle pool initialized.
+[21:39:44] Chat initialized.
+[21:39:44] Input initialized.
+[21:39:44] Death list initialized.
+[21:39:44] Dialog initialized.
+[21:39:44] Misc data initialized.
+[21:39:44] Scoreboard initialized.
+[21:39:44] RakNet initialized.
+[21:39:44] SAMPFUNCS v5.4.1-final rel.21 (SA-MP 0.3.7-R1) completely loaded!
+[21:40:17] Hook "SAMP: CNetGame::~CNetGame" installed.
+[21:40:19] Uninitializing SAMPFUNCS...
+[21:40:19] Exited.
